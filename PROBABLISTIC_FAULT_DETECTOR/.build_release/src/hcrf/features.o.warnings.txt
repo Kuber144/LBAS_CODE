@@ -1,0 +1,4 @@
+src/hcrf/features.cpp: In member function ‘void GateNodeFeatures::getPreGateFeatures(featureVector&, DataSequence*, Model*, int, int, int)’:
+src/hcrf/features.cpp:400:11: warning: variable ‘nbNodes’ set but not used [-Wunused-but-set-variable]
+  400 |   int f,g,nbNodes,nbStates,nbFeaturesDense,nbSG,gXfpg;
+      |           ^~~~~~~

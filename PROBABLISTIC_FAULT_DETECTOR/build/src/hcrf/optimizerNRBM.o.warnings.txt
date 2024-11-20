@@ -1,0 +1,4 @@
+src/hcrf/optimizerNRBM.cpp: In member function ‘void OptimizerNRBM::NRBM_kernel(hCRF::dVector, hCRF::dVector&, const OptimizerNRBM::reg_params&, const OptimizerNRBM::nrbm_hyper_params&, const OptimizerNRBM::wolfe_params&)’:
+src/hcrf/optimizerNRBM.cpp:160:10: warning: variable ‘s’ set but not used [-Wunused-but-set-variable]
+  160 |   double s, sum_dist, fcurrent, fbest, Rbest, dual, fstart, astar, gap;
+      |          ^

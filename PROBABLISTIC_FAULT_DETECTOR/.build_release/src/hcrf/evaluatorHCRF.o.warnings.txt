@@ -1,0 +1,4 @@
+src/hcrf/evaluatorHCRF.cpp: In member function ‘virtual double EvaluatorHCRF::computeError(DataSequence*, Model*)’:
+src/hcrf/evaluatorHCRF.cpp:65:9: warning: variable ‘max_y’ set but not used [-Wunused-but-set-variable]
+   65 |     int max_y=-1; double max_val=-DBL_MAX;
+      |         ^~~~~

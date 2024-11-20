@@ -1,0 +1,23 @@
+src/hcrf/inferenceEngineBP.cpp: In member function ‘void InferenceEngineBP::initMessages(hCRF::dVector**&, DataSequence*, Model*, hCRF::iMatrix, hCRF::iVector)’:
+src/hcrf/inferenceEngineBP.cpp:170:24: warning: variable ‘seqLength’ set but not used [-Wunused-but-set-variable]
+  170 |   int xi, xj, nbNodes, seqLength;
+      |                        ^~~~~~~~~
+src/hcrf/inferenceEngineBP.cpp: In member function ‘void InferenceEngineBP::initBeliefs(Beliefs&, DataSequence*, Model*, hCRF::iMatrix, hCRF::iVector)’:
+src/hcrf/inferenceEngineBP.cpp:186:33: warning: variable ‘seqLength’ set but not used [-Wunused-but-set-variable]
+  186 |   int xi, xj, nbNodes, nbEdges, seqLength;
+      |                                 ^~~~~~~~~
+src/hcrf/inferenceEngineBP.cpp: In member function ‘void InferenceEngineBP::initPotentials(hCRF::dVector*&, hCRF::dMatrix**&, FeatureGenerator*, DataSequence*, Model*, hCRF::iMatrix, hCRF::iVector, int)’:
+src/hcrf/inferenceEngineBP.cpp:208:27: warning: variable ‘seqLength’ set but not used [-Wunused-but-set-variable]
+  208 |   int k, xi, xj, nbNodes, seqLength;
+      |                           ^~~~~~~~~
+src/hcrf/inferenceEngineBP.cpp: In member function ‘void InferenceEngineBP::updateBeliefs(Beliefs&, hCRF::dVector*, hCRF::dMatrix**, hCRF::dVector**, DataSequence*, Model*, hCRF::iMatrix)’:
+src/hcrf/inferenceEngineBP.cpp:265:28: warning: variable ‘seqLength’ set but not used [-Wunused-but-set-variable]
+  265 |   int xi, xj, xu, nbNodes, seqLength;
+      |                            ^~~~~~~~~
+src/hcrf/inferenceEngineBP.cpp: In member function ‘void BPNode::print()’:
+src/hcrf/inferenceEngineBP.cpp:359:3: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  359 |   for(it=neighbors.begin(); it!=neighbors.end(); it++) printf("%d ", (*it)->id); printf("}\n");
+      |   ^~~
+src/hcrf/inferenceEngineBP.cpp:359:82: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  359 |   for(it=neighbors.begin(); it!=neighbors.end(); it++) printf("%d ", (*it)->id); printf("}\n");
+      |                                                                                  ^~~~~~

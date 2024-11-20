@@ -1,0 +1,4 @@
+src/hcrf/gradientHCRF.cpp: In member function ‘double GradientHCRF::computeGradientMaxMargin(hCRF::dVector&, Model*, DataSequence*)’:
+src/hcrf/gradientHCRF.cpp:161:30: warning: variable ‘lZx’ set but not used [-Wunused-but-set-variable]
+  161 |   double val, max_val, loss, lZx, phi_true=0, phi_star=0;
+      |                              ^~~

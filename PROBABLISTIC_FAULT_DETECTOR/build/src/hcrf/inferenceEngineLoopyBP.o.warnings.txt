@@ -1,0 +1,4 @@
+src/hcrf/inferenceEngineLoopyBP.cpp: In member function ‘void InferenceEngineLoopyBP::sendMessage(int, int, int, Beliefs, std::vector<hCRF::Vector<double> >&, hCRF::iMatrix, int, bool)’:
+src/hcrf/inferenceEngineLoopyBP.cpp:275:7: warning: variable ‘max_hi’ set but not used [-Wunused-but-set-variable]
+  275 |   int max_hi=-1; // for Viterbi decoding
+      |       ^~~~~~

@@ -1,0 +1,13 @@
+src/hcrf/inferenceEngineJT.cpp: In member function ‘virtual void InferenceEngineJT::computeBeliefs(Beliefs&, FeatureGenerator*, DataSequence*, Model*, int, int, bool)’:
+src/hcrf/inferenceEngineJT.cpp:89:3: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   89 |   for(int i=0; i<(int)vecCliques.size(); i++) delete vecCliques.at(i); vecCliques.clear();
+      |   ^~~
+src/hcrf/inferenceEngineJT.cpp:89:72: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   89 |   for(int i=0; i<(int)vecCliques.size(); i++) delete vecCliques.at(i); vecCliques.clear();
+      |                                                                        ^~~~~~~~~~
+src/hcrf/inferenceEngineJT.cpp:90:3: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   90 |   for(int i=0; i<(int)vecSeparators.size(); i++) delete vecSeparators.at(i); vecSeparators.clear();
+      |   ^~~
+src/hcrf/inferenceEngineJT.cpp:90:78: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   90 |   for(int i=0; i<(int)vecSeparators.size(); i++) delete vecSeparators.at(i); vecSeparators.clear();
+      |                                                                              ^~~~~~~~~~~~~

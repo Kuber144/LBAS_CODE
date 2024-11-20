@@ -1,0 +1,8 @@
+src/hcrf/hierarchicalFeatures.cpp: In member function ‘void HSSGateNodeFeatures::getPreGateFeatures(featureVector&, DataSequence*, Model*, int, int, int)’:
+src/hcrf/hierarchicalFeatures.cpp:214:23: warning: variable ‘nbNodes’ set but not used [-Wunused-but-set-variable]
+  214 |   int f,g,k,nodeLayer,nbNodes,nbStates,nbFeaturesDense,nbSG,gXfpg;
+      |                       ^~~~~~~
+src/hcrf/hierarchicalFeatures.cpp: In member function ‘virtual void HSSEdgeFeatures::getFeatures(featureVector&, DataSequence*, Model*, int, int, int)’:
+src/hcrf/hierarchicalFeatures.cpp:349:15: warning: variable ‘nbNodes’ set but not used [-Wunused-but-set-variable]
+  349 |   int s1, s2, nbNodes, nbStates, nodeLayer;
+      |               ^~~~~~~

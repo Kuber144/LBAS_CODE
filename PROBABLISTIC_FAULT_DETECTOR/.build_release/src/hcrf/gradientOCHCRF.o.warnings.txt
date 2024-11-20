@@ -1,0 +1,4 @@
+src/hcrf/gradientOCHCRF.cpp: In member function ‘double GradientOCHCRF::mle(hCRF::dVector&, Model*, DataSequence*)’:
+src/hcrf/gradientOCHCRF.cpp:35:41: warning: variable ‘seqLabel’ set but not used [-Wunused-but-set-variable]
+   35 |   int k, xi, xj, y, gidx, y_pos, y_neg, seqLabel, nbSeqLabels, nbFeatures, nbGates;
+      |                                         ^~~~~~~~

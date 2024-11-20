@@ -1,0 +1,7 @@
+src/hcrf/segment.cpp: In member function ‘void segment::segment_sequence(hCRF::dMatrix, hCRF::dMatrix&, Beliefs, double, int*, int**)’:
+src/hcrf/segment.cpp:406:3: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  406 |   for(i=0; i<u.num_sets(); i++) printf("[%d]", seg_sizes[i]); printf("\n");   //getchar();
+      |   ^~~
+src/hcrf/segment.cpp:406:63: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  406 |   for(i=0; i<u.num_sets(); i++) printf("[%d]", seg_sizes[i]); printf("\n");   //getchar();
+      |                                                               ^~~~~~
